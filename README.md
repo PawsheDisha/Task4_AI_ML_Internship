@@ -23,8 +23,8 @@ Breast Cancer Wisconsin dataset (from Scikit-learn)
 **Steps Performed**
 
 1. Loaded dataset
-   Loaded dataset using sklearn.datasets.load_breast_cancer()
-   Converted features into Pandas DataFrame
+     - Loaded dataset using sklearn.datasets.load_breast_cancer()
+     - Converted features into Pandas DataFrame
 2. Split into training (80%) and testing (20%)
    Split dataset into:
    80% Training Data
@@ -37,8 +37,8 @@ Breast Cancer Wisconsin dataset (from Scikit-learn)
    Used LogisticRegression() from Scikit-learn
    Trained model on scaled training data
 6. Evaluated using:
-    Confusion Matrix
-    Precision
+      - Confusion Matrix
+    -  Precision
     Recall
     ROC-AUC Score
     ROC Curve
@@ -53,8 +53,5 @@ It converts output into probability (0–1) for classification.
 
 
 **Conclusion**
-
-Logistic Regression performed effectively for binary classification, with strong ROC-AUC and balanced precision-recall performance.
-
 
 Logistic Regression performed effectively for binary classification, with strong ROC-AUC and balanced precision-recall performance.
