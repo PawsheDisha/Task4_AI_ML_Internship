@@ -26,23 +26,23 @@ Breast Cancer Wisconsin dataset (from Scikit-learn)
      - Loaded dataset using sklearn.datasets.load_breast_cancer()
      - Converted features into Pandas DataFrame
 2. Split into training (80%) and testing (20%)
-   Split dataset into:
-   80% Training Data
-   20% Testing Data
-   Used train_test_split() with random_state=42
+     - Split dataset into:
+         -  80% Training Data
+         -  20% Testing Data
+     -  Used train_test_split() with random_state=42
 3. Standardized features using StandardScaler
-   Applied StandardScaler
-   Standardized training and testing data separately
+    -  Applied StandardScaler
+    -  Standardized training and testing data separately
 4. Trained Logistic Regression model
-   Used LogisticRegression() from Scikit-learn
-   Trained model on scaled training data
+     - Used LogisticRegression() from Scikit-learn
+     - Trained model on scaled training data
 6. Evaluated using:
-      - Confusion Matrix
-    -  Precision
-    Recall
-    ROC-AUC Score
-    ROC Curve
-    Tuned classification threshold
+     - Confusion Matrix
+     - Precision
+     - Recall
+     - ROC-AUC Score
+     - ROC Curve
+     - Tuned classification threshold
 
    
 **Sigmoid Function**
