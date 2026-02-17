@@ -1,21 +1,26 @@
 # Task4_AI_ML_Internship
 
-Objective
+**Objective**
+
 Build a binary classifier using Logistic Regression and evaluate its performance using standard classification metrics.
 
- Tools Used
+
+**Tools Used**
+
 Python
 Pandas
 Matplotlib
 Scikit-learn
 
-Dataset
+
+**Dataset**
+
 Breast Cancer Wisconsin dataset (from Scikit-learn)
 569 samples
 30 features
 2 classes: Malignant (0) and Benign (1)
 
-Steps Performed
+**Steps Performed**
 
 1. Loaded dataset
    Loaded dataset using sklearn.datasets.load_breast_cancer()
@@ -39,14 +44,17 @@ Steps Performed
     ROC Curve
     Tuned classification threshold
 
-Sigmoid Function
+   
+**Sigmoid Function**
 
 Logistic Regression uses:
 σ(z)=1/1+e−z​
 It converts output into probability (0–1) for classification.
 
-Conclusion
+
+**Conclusion**
+
 Logistic Regression performed effectively for binary classification, with strong ROC-AUC and balanced precision-recall performance.
-🎯 Conclusion
+
 
 Logistic Regression performed effectively for binary classification, with strong ROC-AUC and balanced precision-recall performance.
